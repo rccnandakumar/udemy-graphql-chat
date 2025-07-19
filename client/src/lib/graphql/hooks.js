@@ -1,6 +1,5 @@
 import { useMutation, useQuery } from "@apollo/client";
 import { addMessageMutation, messagesQuery } from "./queries";
-import { cache } from "react";
 
 export function useAddMessage() {
   const [mutate] = useMutation(addMessageMutation);
