@@ -1,4 +1,4 @@
-import { GraphQLError, subscribe } from 'graphql';
+import { GraphQLError } from 'graphql';
 import { createMessage, getMessages } from './db/messages.js';
 import { PubSub } from 'graphql-subscriptions';
 
